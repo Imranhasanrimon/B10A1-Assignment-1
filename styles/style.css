@@ -1,0 +1,71 @@
+/* Google fonts link  */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* My default values  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
+}
+
+/* Styling for header area  */
+header .navbar-section {
+    width: 1440px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation menu design  */
+header .navbar-section nav {
+    width: 100%;
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar-section nav .icon {
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+header .navbar-section nav span {
+    color: tomato;
+    transition: all .3s ease;
+}
+
+header .navbar-section nav .icon:hover {
+    transform: scale(1.05);
+    color: tomato;
+}
+
+header .navbar-section nav .icon:hover span {
+    color: black;
+}
+
+header .navbar-section nav .download-btn {
+    border: 1px solid rgba(13, 19, 33, 0.8);
+    border-radius: 8px;
+    padding: 17px 24px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+header .navbar-section nav .download-btn:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+/* Hero or banner section design  */
