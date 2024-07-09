@@ -13,7 +13,6 @@
 header .navbar-section {
     width: 1440px;
     height: 100px;
-    border: 1px solid black;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -69,3 +68,54 @@ header .navbar-section nav .download-btn:hover {
 
 
 /* Hero or banner section design  */
+.hero-section {
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(../assets/Hero-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .content-area {
+    width: 998px;
+    height: 582px;
+}
+
+.hero-section .content-area h1 {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin: 25px 0;
+}
+
+#description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+}
+
+.contact-btn {
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 23px;
+    margin-top: 32px;
+    cursor: pointer;
+    transition: all .3s ease;
+    border: 1px solid black;
+}
+
+.contact-btn:hover {
+    background: white;
+    color: black;
+}
+
+/* The header section ends here  */
