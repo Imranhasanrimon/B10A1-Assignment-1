@@ -205,3 +205,63 @@ article .text .article-btn a {
     margin: 80px auto;
     border-radius: 16px;
 }
+
+/* My inspiration section ends here  */
+
+/* My current-target section starts here  */
+.current-target {
+    width: 1140px;
+}
+
+.current-target .title h2 {
+    margin-top: 90px;
+}
+
+.current-target .target-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.target-container .skill {
+    width: 364px;
+    height: 310px;
+    padding: 40px;
+    border-radius: 16px;
+    margin: 48px 0;
+}
+
+.target-container .skill h2 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+
+.target-container .skill a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    display: block;
+    margin-top: 24px;
+}
+
+.target-container .skill p {
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.target-container .html {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.target-container .css {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.target-container .js {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* My current-target section starts here  */
