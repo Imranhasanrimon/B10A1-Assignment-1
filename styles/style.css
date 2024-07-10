@@ -1,6 +1,11 @@
 /* Google fonts link  */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* This is for smooth scroll behaviour of the page  */
+html {
+    scroll-behavior: smooth;
+}
+
 /* My default values  */
 * {
     margin: 0;
@@ -310,4 +315,32 @@ article .text .article-btn a {
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
+    padding: 0;
+    margin-left: 10px;
+}
+
+/* Support section design is completed  */
+/* The main area ends here  */
+
+/* Footer Design  */
+footer {
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px;
+}
+
+footer p {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer .social-links a {
+    margin-left: 8px;
 }
