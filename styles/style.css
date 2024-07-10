@@ -78,7 +78,7 @@ header .navbar-section nav .download-btn:hover {
     height: 652px;
     margin: 0 auto;
     text-align: center;
-    background-image: url(../assets/Hero-bg.png);
+    background-image: linear-gradient(rgba(255, 99, 71, 0.2), rgba(255, 71, 246, 0.295)), url(../assets/Hero-bg.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +97,7 @@ header .navbar-section nav .download-btn:hover {
     margin: 25px 0;
 }
 
-#description {
+.description {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -158,17 +158,12 @@ article {
     margin-top: 80px;
 }
 
-.article2 {
-    justify-content: start;
-    gap: 48px;
-}
-
 article .text {
     width: 477px;
 }
 
 article .text h3 {
-    color: rgba(13, 19, 33, 0.7);
+    color: rgba(255, 129, 71, 0.8);
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
@@ -182,20 +177,25 @@ article .text p {
 }
 
 article .text .article-btn {
-    border: 1px solid rgb(13, 19, 33, .7);
-    padding: 12px 20px;
-    background: transparent;
-    margin-top: 32px;
-    cursor: pointer;
-    opacity: .7;
-}
-
-article .text .article-btn a {
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
+    border: 1px solid rgb(13, 19, 33);
+    padding: 12px 20px;
+    background: transparent;
+    margin-top: 32px;
+    opacity: .7;
+    margin-top: 32px;
+    display: inline-block;
+    transition: all .3s ease;
 }
+
+article .text .article-btn:hover {
+    background-color: black;
+    color: white;
+}
+
 
 /* why web development section ends here  */
 
@@ -247,9 +247,17 @@ article .text .article-btn a {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
-    text-decoration-line: underline;
     display: block;
     margin-top: 24px;
+
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    transition: all .3s ease;
+}
+
+.target-container .skill a:hover {
+    color: tomato;
 }
 
 .target-container .skill p {
@@ -319,6 +327,13 @@ article .text .article-btn a {
     margin-left: 10px;
 }
 
+.support input[type="submit"]:hover {
+    background-color: transparent;
+    color: white;
+    border: white solid;
+    cursor: pointer;
+}
+
 /* Support section design is completed  */
 /* The main area ends here  */
 
@@ -343,4 +358,13 @@ footer p {
 
 footer .social-links a {
     margin-left: 8px;
+}
+
+footer .social-links img {
+    transition: all .3s ease;
+}
+
+footer .social-links img:hover {
+    transform: scale(1.2);
+
 }
