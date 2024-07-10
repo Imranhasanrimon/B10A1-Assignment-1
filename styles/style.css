@@ -41,7 +41,7 @@ header .navbar-section nav span {
 }
 
 header .navbar-section nav .icon:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     color: tomato;
 }
 
@@ -118,4 +118,75 @@ header .navbar-section nav .download-btn:hover {
     color: black;
 }
 
-/* The header section ends here  */
+/* The header section ends here ! */
+
+/* The main area starts here  */
+main {
+    width: 1140px;
+    margin: 154px auto;
+}
+
+/* why web development? section design  */
+.why-web-dev {
+    width: 946px;
+    margin: 0 auto;
+}
+
+.why-web-dev .title {
+    text-align: center;
+}
+
+.why-web-dev .title h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+/* article design  */
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.article2 {
+    justify-content: start;
+    gap: 48px;
+}
+
+article .text {
+    width: 477px;
+}
+
+article .text h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+article .text p {
+    text-align: justify;
+}
+
+article .text .article-btn {
+    border: 1px solid rgb(13, 19, 33, .7);
+    padding: 12px 20px;
+    background: transparent;
+    margin-top: 32px;
+    cursor: pointer;
+    opacity: .7;
+}
+
+article .text .article-btn a {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    /* opacity: .7; */
+}
