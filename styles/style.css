@@ -279,6 +279,45 @@ article .text .article-btn:hover {
 /* My current-target section starts here  */
 
 
+/* My next target section starts here  */
+.next-target p {
+    margin: 24px auto;
+}
+
+.next-target .stack-container {
+    width: 1140px;
+    height: 219px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-bottom: 24px;
+    padding: 40px;
+}
+
+.stack-container a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    transition: all .3s ease;
+}
+
+.stack-container a:hover {
+    color: tomato;
+}
+
+.next-target {
+    margin: 30px 0;
+}
+
+/* My next target section ends here  */
+
 
 /* support section starts here  */
 .support {
@@ -369,45 +408,3 @@ footer .social-links img:hover {
     transform: scale(1.2);
 
 }
-
-
-
-
-/* My next target section starts here  */
-.next-target p {
-    margin: 24px auto;
-}
-
-.next-target .stack-container {
-    width: 1140px;
-    height: 219px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 24px;
-    border: 1px solid rgba(13, 19, 33, 0.15);
-    border-radius: 16px;
-    margin-bottom: 24px;
-    padding: 40px;
-}
-
-.stack-container a {
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 700;
-    display: inline-block;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    text-decoration-thickness: 2px;
-    transition: all .3s ease;
-}
-
-.stack-container a:hover {
-    color: tomato;
-}
-
-.next-target {
-    margin: 30px 0;
-}
-
-/* My next target section ends here  */
