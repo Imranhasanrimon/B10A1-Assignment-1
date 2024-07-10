@@ -265,3 +265,49 @@ article .text .article-btn a {
 }
 
 /* My current-target section starts here  */
+
+/* support section starts here  */
+.support {
+    width: 1140px;
+    height: 313px;
+    border-radius: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.support .title h2 {
+    color: white;
+}
+
+.support .title p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 55px;
+}
+
+.support input {
+    width: 548px;
+    height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.support input[type="submit"] {
+    width: 120px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
