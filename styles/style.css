@@ -132,11 +132,13 @@ main {
     margin: 0 auto;
 }
 
-.why-web-dev .title {
+.title {
+    width: 852px;
+    margin: 0 auto;
     text-align: center;
 }
 
-.why-web-dev .title h2 {
+.title h2 {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -188,5 +190,18 @@ article .text .article-btn a {
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
-    /* opacity: .7; */
+}
+
+/* why web development section ends here  */
+
+/* My inspiration section starts here  */
+.inspiration {
+    width: 1140px;
+    margin: 90px auto;
+}
+
+.inspiration iframe {
+    display: block;
+    margin: 80px auto;
+    border-radius: 16px;
 }
