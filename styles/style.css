@@ -253,6 +253,7 @@ article .text .article-btn:hover {
     text-underline-offset: 3px;
     text-decoration-thickness: 2px;
     transition: all .3s ease;
+    border-radius: 5px;
 }
 
 .target-container .skill a:hover {
