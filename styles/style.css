@@ -366,12 +366,13 @@ article .text .article-btn:hover {
     font-weight: 600;
     padding: 0;
     margin-left: 10px;
+    transition: .3s ease;
 }
 
 .support input[type="submit"]:hover {
     background-color: transparent;
     color: white;
-    border: white solid;
+    border: 2px white solid;
     cursor: pointer;
 }
 
